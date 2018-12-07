@@ -1,0 +1,28 @@
+{
+  "name": "graphql-gtd-api",
+  "version": "1.0.0",
+  "description": "A project tracker GraphQL API in line with David Allen's Getting Things Done.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwins93/graphql-gtd-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwins93/graphql-gtd-api/issues"
+  },
+  "homepage": "https://github.com/ashwins93/graphql-gtd-api#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
