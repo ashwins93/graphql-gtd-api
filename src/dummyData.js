@@ -118,3 +118,5 @@ const data = {
     },
   ],
 }
+
+export { data as default }
