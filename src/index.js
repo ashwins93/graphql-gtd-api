@@ -7,9 +7,16 @@ const { projects, actions, contexts } = data
 const typeDefs = `
   type Query {
     projects: [Project!]!
+    actions: [Action!]!
   }
 
   type Project {
+    id: ID!
+    description: String!
+    completed: Boolean!
+  }
+
+  type Action {
     id: ID!
     description: String!
     completed: Boolean!
@@ -20,6 +27,9 @@ const resolvers = {
   Query: {
     projects(parent, args, ctx, info) {
       return projects
+    },
+    actions(parent, args, ctx, info) {
+      return actions
     },
   },
 }
